@@ -1,0 +1,21 @@
+.gold {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Add margin top to adjust spacing as needed */
+  }
+  
+
+.goldImg{
+    width: 73%;
+    height: 100%;
+    object-fit: cover;
+    transform: none;
+    opacity: 1;
+    will-change: transform, opacity;
+    border-radius: inherit;
+    filter: unset;
+    transition: opacity 0.25s ease 0s, transform 0.25s ease 0s;
+    overflow-clip-margin: content-box;
+
+}

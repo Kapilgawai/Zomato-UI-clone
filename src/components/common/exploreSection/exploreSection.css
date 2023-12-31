@@ -1,0 +1,24 @@
+.explore-section{
+    margin-top: 16px;
+}
+.explore-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+
+
+.explore-card-cover{
+    height: 248px;
+    width: 328px;
+    position: relative;
+    border-radius: 15px;
+}
+
+.explore-card-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
